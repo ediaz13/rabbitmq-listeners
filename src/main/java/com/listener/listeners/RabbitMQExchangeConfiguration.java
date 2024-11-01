@@ -39,4 +39,13 @@ public class RabbitMQExchangeConfiguration {
                 .durable(false)
                 .build();
     }
+
+    @Bean
+    Exchange headersExchange() {
+        return ExchangeBuilder.headersExchange("HeadersTestExchange")
+                .ignoreDeclarationExceptions()
+                .durable(true)
+                .internal()
+                .build();
+    }
 }
