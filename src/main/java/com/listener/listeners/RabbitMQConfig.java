@@ -13,7 +13,8 @@ import org.springframework.context.annotation.Configuration;
 public class RabbitMQConfig {
     private static final String MY_QUEUE = "MyQueue";
 
-    //@Queue(value = MY_QUEUE, autoDelete = "false", durable = "true", exclusive = "false")
+    // NICE SHIT
+    // @Queue(value = MY_QUEUE, autoDelete = "false", durable = "true", exclusive = "false")
 
     @Bean
     public Queue myQueue() {
