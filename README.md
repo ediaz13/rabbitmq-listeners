@@ -1,2 +1,2 @@
 # rabbitmq-listeners
-Publishers - Experiments with RabbitTemplate... Just for fun!
+Listeners - Experiments with RabbitTemplate... Just for fun!
